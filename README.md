@@ -36,3 +36,20 @@ Um utilitário de alta performance em Python para extração de áudio de vídeo
 Dê um **duplo clique** no arquivo `conversor.py` ou execute sem parâmetros no terminal:
 ```powershell
 python conversor.py
+
+2. Modo Linha de Comando (CLI)
+Converter mantendo a estrutura de pastas do pendrive para o Desktop:
+powershell
+
+
+python conversor.py -i "F:\" -o "C:\Users\Usuario\Desktop\Audios"
+Converter com taxa de bits customizada (320 kbps) e 8 threads simultâneas:
+powershell
+
+
+python conversor.py -i "C:\Videos" -o "C:\Audios" -b 320k -w 8
+Converter e remover os arquivos .avi originais para liberar espaço:
+powershell
+
+
+python conversor.py -i "F:\" --delete-source
