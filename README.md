@@ -37,7 +37,8 @@ Dê um **duplo clique** no arquivo `conversor.py` ou execute sem parâmetros no 
 ```powershell
 python conversor.py
 
-2. Modo Linha de Comando (CLI)
+
+### 2. Modo Linha de Comando (CLI)
 Converter mantendo a estrutura de pastas do pendrive para o Desktop:
 powershell
 
